@@ -1,6 +1,6 @@
-<a href="#whatisangular">What is Angular</a>
-<a href="#projectsetup">Project Setup</a>
-<a href="#typescript">Typescript</a>
+* <a href="#whatisangular">What is Angular</a>
+* <a href="#projectsetup">Project Setup</a>
+* <a href="#typescript">Typescript</a>
 
 
 ### What is Angular?<a name="whatisangular"></a>
