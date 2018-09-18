@@ -36,3 +36,7 @@ import { ServerComponent } from './server/server.component';
 })
 export class AppModule { }
 ```
+* add server component to the parent component - app.component.html
+``` html
+<app-server/><app-server>
+```
