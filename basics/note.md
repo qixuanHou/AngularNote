@@ -1,4 +1,10 @@
 <a href="#whatisangular">Plan</a>
+<a href="#whatisangular">Plan</a>
+<a href="#whatisangular">Plan</a>
+<a href="#whatisangular">Plan</a>
+<a href="#whatisangular">Plan</a>
+<a href="#x">Plan</a>
+
 
 
 
@@ -28,3 +34,4 @@ Project Setup
           ngModel which makes the name save to name in typescript
 
 •	Bootstrap – angular.json 
+* <a name="x">What is Angular?</a>
