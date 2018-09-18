@@ -19,6 +19,8 @@ export class ServerComponent {
 
 }
 ```
+* ng generate component servers (servers is component name)
+
 ### Module 
 * sample app.module.ts
 ``` typescript
@@ -40,3 +42,4 @@ export class AppModule { }
 ``` html
 <app-server/><app-server>
 ```
+
