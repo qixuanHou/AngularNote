@@ -1,5 +1,6 @@
 * <a href="#howload">How Angular Loads</a>
 * <a href="#component">Component</a>
+* <a href="#databinding">Databinding</a>
 
 
 ### How Angular loads?<a name="howload"></a>
@@ -60,4 +61,21 @@ export class AppModule { }
 ```
 ```html
 <div class="inventory-table-new">
+```
+
+### Databinding<a name="databinding"></a>
+TypeScript -> HTML 
+* string interpolation {{ data }}
+* property binding [property] = "data"
+HTML -> TypeScript
+* event building (event) = "expression"
+Two-way bindings
+[(ngModel)] = "data"
+```HTML
+<input
+  type="text"
+  (input) = "onUpdateServerName($event)">
+<button
+  [disabled] = "!allowNewServer"
+  [click] = "onCreateServer()">Add Server</button>
 ```
