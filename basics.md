@@ -21,7 +21,7 @@ export class ServerComponent {
 ```
 * ng generate component servers (servers is component name)
 
-### Module 
+#### Module 
 * sample app.module.ts
 ``` typescript
 import { BrowserModule } from '@angular/platform-browser';
@@ -42,4 +42,22 @@ export class AppModule { }
 ``` html
 <app-server/><app-server>
 ```
-
+#### Component Selector
+```Typescript
+@Component({
+    selector: "inventory-table-new",
+    templateUrl: "./inventory-table.component.html",
+})
+```
+```html
+<inventory-table-new>
+```
+```Typescript
+@Component({
+    selector: "[inventory-table-new]",
+    templateUrl: "./inventory-table.component.html",
+})
+```
+```html
+<div class="inventory-table-new">
+```
